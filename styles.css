@@ -109,13 +109,8 @@ color: #8f8f8f;
 .game-image3{
   width: 100%;
 }
-.game-section{
-  padding: 100px;
-  text-align: center;
-}
 .gaming-table{
-  padding: 3% 2%;
-  text-align: center;
+  margin: 2% 8%;
 }
 .card-header{
   background-color: #FFF1BD;
