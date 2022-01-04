@@ -1,0 +1,185 @@
+/* Elementos HTML */
+h1 {
+
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+p{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+/* Title */
+#title {
+  background-color: #146356;
+  color: #fff;
+}
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.container-fluid {
+  padding: 2% 12% 5%;
+}
+
+.title-image {
+  width: 100%;
+  opacity: 0.9;
+
+}
+.title-paragraph{
+  margin: 8% auto
+}
+.create-button {
+  margin: 5% 3% 5% 0;
+}
+/* Features */
+#features{
+  text-align: center;
+  padding: 12% 15%;
+  background-color: #fff;
+}
+.features-icons {
+  color: green;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.features-icons:hover {
+  color: #A3DA8D;
+}
+.features-text {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2rem;
+}
+.features-paragraph{
+  font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.4rem;
+color: #8f8f8f;
+}
+.features-div{
+  padding: 7% 2%;
+}
+/* GAME-SECTION */
+.card{
+  border-color: black;
+  width: 90%;
+}
+#game-section{
+  background-color: #A3DA8D;
+  color: black;
+  text-align: center;
+}
+.game-image{
+  width: 100%;
+}
+.game-image2{
+  width: 90%;
+}
+.game-image3{
+  width: 100%;
+}
+.game-section{
+  padding: 100px;
+  text-align: center;
+}
+.gaming-table{
+  padding: 3% 2%;
+  text-align: center;
+}
+.card-header{
+  background-color: #FFF1BD;
+}
+.card-body{
+background-color: #FFF1BD;
+}
+.game-button{
+  font-weight: bold;
+}
+
+/* TUTORIAL-SECTION */
+
+#tutorial{
+  text-align: center;
+  padding: 8% 15%;
+  /* background-color: #303841; */
+}
+
+.tutorial-title{
+margin: 0 3% 5% 0;
+color: green;
+}
+.tutorial-subtitle{
+margin: 5% 3% 5% 0;
+}
+.tutorial-itens{
+  background-color: #A3DA8D;
+  padding: 2% 5%;
+  border-style: solid;
+  border-radius: 5%;
+}
+.tutorial-row{
+  text-align: left;
+  margin: 5% auto;
+}
+.tutorial-icon{
+  color: green;
+}
+/* CTA */
+#cta{
+padding: 8% 15%;
+text-align: center;
+font-family: 'Montserrat-Black', sans-serif;
+background-color:  #146356;
+color: #fff;
+}
+.button-cta {
+  margin: 5% 3% 5% 0;
+}
+/* FOOTER */
+#footer {
+  text-align: center;
+  padding: 2% 12%;
+}
+.footer-icon {
+  margin: 10px 8px;
+}
+.footer-Copyright{
+  margin: 5px auto;
+  font-size: 1rem;
+}
+/* RESPONSIBLE */
+@media (max-width: 992px){
+  .title{
+    text-align: center;
+  }
+}
